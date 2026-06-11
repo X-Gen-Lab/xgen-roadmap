@@ -14,7 +14,7 @@ Repository roles and their relationship to the roadmap stages.
 | `xgen-docs` | Knowledge base for embedded, RTOS, Linux, ROS2, robotics, and AI | Organization | Planned |
 | `xgen-zephyr-platform` | Zephyr-based robot MCU platform | RTOS | Planned |
 | `xgen-linux-lab` | Embedded Linux driver and system learning lab | Embedded Linux | Planned |
-| `xgen-balancebot` | Self-balancing robot platform | Robotics | Planned |
+| `xgen-balancebot` | BalanceBot-X modular robot MCU platform | Robotics | Planned |
 | `xgen-ros2-lab` | ROS2 robotics experiments and architecture examples | ROS2 | Planned |
 
 ## Recommended Build Order
@@ -27,7 +27,7 @@ Repository roles and their relationship to the roadmap stages.
 | 4 | `xgen-ota` | Establishes safe update assumptions before firmware platforms become complex |
 | 5 | `xgen-zephyr-platform` | Turns embedded foundations into a reusable robot MCU platform |
 | 6 | `xgen-linux-lab` | Builds host-side system knowledge needed for integration and diagnostics |
-| 7 | `xgen-balancebot` | Integrates firmware, control, host communication, and ROS2 boundaries |
+| 7 | `xgen-balancebot` | Integrates firmware, control, host communication, and ROS2 boundaries for the BalanceBot-X platform |
 | 8 | `xgen-ros2-lab` | Expands robot behavior, simulation, and middleware patterns after hardware boundaries are clear |
 
 推荐顺序：先稳定规划和知识库，再做设备链路、OTA、RTOS 平台，最后推进机器人集成和 ROS2 实验。
@@ -48,7 +48,7 @@ Collects reusable knowledge, design notes, lab notes, and learning paths across 
 
 ### `xgen-balancebot`
 
-Acts as the flagship integration target that connects firmware, control, Linux, ROS2, and AI extensions.
+Acts as the flagship BalanceBot-X integration target that connects firmware, control, power, sensing, communication, Linux, ROS2, and AI extensions.
 
 作为旗舰集成目标，连接固件、控制、Linux、ROS2 和 AI 扩展能力。
 

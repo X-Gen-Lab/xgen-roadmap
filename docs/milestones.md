@@ -29,11 +29,11 @@ X-Gen-Lab 近期规划里程碑。
 
 | Milestone | Outcome | Status |
 | --- | --- | --- |
-| Define BalanceBot V1 architecture | Firmware, control loop, sensors, host integration | Planned |
+| Define BalanceBot-X V1 architecture | Firmware, control loop, sensors, host integration, platform boundaries | Planned |
 | Create ROS2 lab skeleton | Nodes, launch files, simulation examples | Planned |
-| Connect platform work to robot target | MCU platform and xgen-link work mapped to BalanceBot | Planned |
+| Connect platform work to robot target | MCU platform and xgen-link work mapped to BalanceBot-X | Planned |
 
-机器人方向目标：以 BalanceBot 为主线，把底层平台和 ROS2 能力连接到真实系统。
+机器人方向目标：以 BalanceBot-X 为主线，把底层平台、通信、安全和 ROS2 能力连接到真实系统。
 
 ## AI Track
 
@@ -65,6 +65,6 @@ AI 方向目标：先保持为探索项，在机器人平台稳定后逐步进�
 | 3 | Specify `xgen-link` | Device link contract is available for firmware, host, and robot integration |
 | 4 | Specify `xgen-ota` | Firmware update assumptions are clear before platform implementation |
 | 5 | Start `xgen-zephyr-platform` | Reusable MCU platform begins with known link and OTA boundaries |
-| 6 | Start `xgen-balancebot` architecture | Robot integration target has stable platform dependencies |
+| 6 | Start `xgen-balancebot` BalanceBot-X architecture | Robot integration target has stable platform dependencies |
 
-近期最优路径：先把规划、文档、链路和 OTA 这些基础能力做稳，再进入 Zephyr 平台和 BalanceBot 集成。
+近期最优路径：先把规划、文档、链路和 OTA 这些基础能力做稳，再进入 Zephyr 平台和 BalanceBot-X 集成。

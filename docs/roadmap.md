@@ -84,7 +84,7 @@ Recommended first deliverables:
 
 | Area | Target | Maturity Goal |
 | --- | --- | --- |
-| BalanceBot | Self-balancing robot platform | Integrated firmware-control-ROS2 system |
+| BalanceBot-X | Modular robot MCU control platform | Integrated firmware-control-ROS2 system |
 | Motor control | PWM, encoder, PID, safety limits | Stable motion control |
 | Sensor fusion | IMU, odometry, filtering | Reliable state estimation |
 | System integration | MCU, Linux host, ROS2 bridge | End-to-end robot architecture |
@@ -95,8 +95,8 @@ Recommended first deliverables:
 
 | Deliverable | Repository | Done When |
 | --- | --- | --- |
-| BalanceBot V1 architecture | `xgen-balancebot` | Firmware, control loop, sensor fusion, host, and ROS2 boundaries are documented |
-| Control loop baseline | `xgen-balancebot` | Motor, encoder, IMU, PID, and safety assumptions are defined |
+| BalanceBot-X V1 architecture | `xgen-balancebot` | Firmware, control loop, sensor fusion, platform services, host, and ROS2 boundaries are documented |
+| Control loop baseline | `xgen-balancebot` | Motor, encoder, IMU, PID, safety, and fallback assumptions are defined |
 | Integration checklist | `xgen-docs` | Firmware-to-ROS2 bring-up sequence is reusable |
 
 ## Stage 06: Embodied AI
